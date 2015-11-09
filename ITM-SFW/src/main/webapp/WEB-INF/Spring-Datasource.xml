@@ -7,7 +7,7 @@
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/push-itm" />
+		<property name="url" value="jdbc:mysql://127.9.100.130:3306/push-itm" />
 		<property name="username" value="adminkB3x5fy" />
 		<property name="password" value="JnCGrCGURcnt" />
 
